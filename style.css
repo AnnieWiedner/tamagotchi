@@ -1,0 +1,95 @@
+/** {
+	border: 1px solid red;
+}*/
+
+body {
+	background: #00ccff;
+	color: #2116F1;
+	font-family: Arial;
+}
+
+img {
+	width: 150px;
+	position: relative;
+	top: 85px;
+	height: 230px;
+
+}
+
+h1 {
+	font-family: Arial;
+	color: blue;
+	text-align: center;
+}
+
+
+.game {
+	margin: 0 auto;
+	display: block;
+	width: 615px;
+}
+
+#hud {
+	display: flex;
+	justify-content: flex-start;
+	text-align: center;
+	position: absolute;
+	bottom: 5px;
+	background-color: yellow;
+}
+
+.meter {
+	margin: 0px 20px;
+	color: green;
+
+}
+
+#flex {
+	display: flex;
+	background-color: white;
+	background-image: url("https://c.s-microsoft.com/en-us/CMSImages/msd-mdl-grid-control-bottomright-vp3.png?version=3c656552-734e-e6bb-383f-e69f7af2b39a");
+	height: 300px;
+	text-align: center;
+
+}
+
+
+.dog {
+	opacity: 0;
+}
+
+#dog-0 {
+	opacity: 1;
+}
+
+
+
+#feed {
+	border-radius: 50%;
+	height: 70px;
+	width: 70px;
+	position: absolute;	
+	left: 30%;
+	background-color: #00cc00;
+}
+
+#play {
+	border-radius: 50%;
+	height: 70px;
+	width: 70px;
+	position: absolute;
+	margin-top: 20px;
+	left: 47%;
+	background-color: #00cc00;
+}
+
+
+#sleep {
+	border-radius: 50%;
+	height: 70px;
+	width: 70px;
+	position: absolute;	
+	right: 30%;
+	background-color: #00cc00;
+
+}
